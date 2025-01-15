@@ -1,0 +1,324 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList Component Snapshot Tests matches empty products state snapshot 1`] = `
+<div
+  className="MuiBox-root css-1aicb05"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-10utshc-MuiTypography-root"
+    data-testid="no-products-message"
+  >
+    No products found.
+  </p>
+</div>
+`;
+
+exports[`ProductList Component Snapshot Tests matches error state snapshot 1`] = `
+<div
+  className="MuiBox-root css-1aicb05"
+>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-5okc32-MuiTypography-root"
+    data-testid="error-message"
+  >
+    Failed to fetch products
+  </p>
+</div>
+`;
+
+exports[`ProductList Component Snapshot Tests matches loading state snapshot 1`] = `
+<div
+  className="MuiBox-root css-zzzt33"
+>
+  <span
+    className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+    data-testid="loading-spinner"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+        cx={44}
+        cy={44}
+        fill="none"
+        r={20.2}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`ProductList Component Snapshot Tests matches populated products list snapshot 1`] = `
+<div
+  className="MuiBox-root css-10wxp4g"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      className="search-bar"
+      data-testid="search-bar"
+    >
+      <input
+        aria-label="Search products"
+        data-testid="search-input"
+        onChange={[Function]}
+        placeholder="Search products..."
+        role="textbox"
+        type="text"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-1"
+        >
+          <div
+            data-testid="product-name-1"
+          >
+            Product 1
+          </div>
+          <div
+            data-testid="product-price-1"
+          >
+            $
+            10
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-2"
+        >
+          <div
+            data-testid="product-name-2"
+          >
+            Product 2
+          </div>
+          <div
+            data-testid="product-price-2"
+          >
+            $
+            20
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-3"
+        >
+          <div
+            data-testid="product-name-3"
+          >
+            Product 3
+          </div>
+          <div
+            data-testid="product-price-3"
+          >
+            $
+            30
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProductList Component Snapshot Tests matches snapshot with different screen sizes: desktop view 1`] = `
+<div
+  className="MuiBox-root css-10wxp4g"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      className="search-bar"
+      data-testid="search-bar"
+    >
+      <input
+        aria-label="Search products"
+        data-testid="search-input"
+        onChange={[Function]}
+        placeholder="Search products..."
+        role="textbox"
+        type="text"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-1"
+        >
+          <div
+            data-testid="product-name-1"
+          >
+            Product 1
+          </div>
+          <div
+            data-testid="product-price-1"
+          >
+            $
+            10
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-2"
+        >
+          <div
+            data-testid="product-name-2"
+          >
+            Product 2
+          </div>
+          <div
+            data-testid="product-price-2"
+          >
+            $
+            20
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-3"
+        >
+          <div
+            data-testid="product-name-3"
+          >
+            Product 3
+          </div>
+          <div
+            data-testid="product-price-3"
+          >
+            $
+            30
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProductList Component Snapshot Tests matches snapshot with different screen sizes: mobile view 1`] = `
+<div
+  className="MuiBox-root css-10wxp4g"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      className="search-bar"
+      data-testid="search-bar"
+    >
+      <input
+        aria-label="Search products"
+        data-testid="search-input"
+        onChange={[Function]}
+        placeholder="Search products..."
+        role="textbox"
+        type="text"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-1"
+        >
+          <div
+            data-testid="product-name-1"
+          >
+            Product 1
+          </div>
+          <div
+            data-testid="product-price-1"
+          >
+            $
+            10
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-2"
+        >
+          <div
+            data-testid="product-name-2"
+          >
+            Product 2
+          </div>
+          <div
+            data-testid="product-price-2"
+          >
+            $
+            20
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          className="product-card"
+          data-testid="product-card-3"
+        >
+          <div
+            data-testid="product-name-3"
+          >
+            Product 3
+          </div>
+          <div
+            data-testid="product-price-3"
+          >
+            $
+            30
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
